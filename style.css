@@ -18,6 +18,12 @@ div {
     justify-content: center;
     align-items: center;
 }
+
+.text-melt{
+    margin-left: 5px;
+
+
+}
 .header{
     background-color:#01130f; 
     color: white;
@@ -64,4 +70,10 @@ div {
 
 .social-links {
     display: flex;
+    font-size: 70px;
+    margin-top: 0;
+}
+
+.youtube-icon{
+    margin-left: 1em;
 }
