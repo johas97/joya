@@ -1,3 +1,12 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
 body {
     margin:0;
     font-family: 'Mohave', sans-serif;
@@ -20,11 +29,15 @@ div {
     background-color:#021f19;
     color:white;
     padding-top: 5em;
+    
 }
 
 .covers{
     background-color: #1e0a12;
     color:white;
+    display: flex;
+    gap:5em;
+    flex-wrap: wrap;
 }
 
 .spacer {
@@ -41,4 +54,14 @@ div {
 
 .waves_2 {
     background-image:url('waves_2.svg') ;
+}
+
+.piano {
+    background-color: #513100;
+    color: white;
+
+}
+
+.social-links {
+    display: flex;
 }
