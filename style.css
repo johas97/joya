@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    font-family: 'Mohave', sans-serif;
+    color: black;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background-color:#01130f; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:0.2em;
+}
+.intro {
+    background-color:#021f19;
+    color:white;
+    padding-top: 5em;
+}
+
+.covers{
+    background-color: #1e0a12;
+    color:white;
+}
+
+.spacer {
+    height: 12em;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.waves_1 {
+    background-image: url('waves.svg');
+}
+
+.waves_2 {
+    background-image:url('waves_2.svg') ;
+}
