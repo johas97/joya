@@ -42,7 +42,7 @@ div {
     background-color: #1e0a12;
     color:white;
     display: flex;
-    gap:5em;
+    gap:6em;
     flex-wrap: wrap;
 }
 
