@@ -72,8 +72,14 @@ div {
     display: flex;
     font-size: 70px;
     margin-top: 0;
+    transition:color 200ms ease-in-out;
 }
-
+.social-links:hover,
+.youtube-icon:hover {
+    color: black;
+    
+}
 .youtube-icon{
     margin-left: 1em;
+    transition:color 200ms ease-in-out;
 }
